@@ -23,8 +23,8 @@ public class SwaggerConfig {
     public ApiInfo createApiInfo() {
         ApiInfo apiInfo = new ApiInfoBuilder()
                 .title("JoyousMusic")
-                .description("一个小型的Web音乐播放器")
-                .contact(new Contact("Joyous", "http://www.joyous.fun", "isliyufeng@163.com"))
+                .description("一个卖菜的网站")
+                .contact(new Contact("Cai", "http://www.joyous.fun", "isliyufeng@163.com"))
                 .build();
         return apiInfo;
     }
@@ -37,6 +37,6 @@ public class SwaggerConfig {
     @Bean
     public Docket createDocket() {
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(createApiInfo()).select().
-                apis(RequestHandlerSelectors.basePackage("com.feri.bootssm.controller")).build();
+                apis(RequestHandlerSelectors.basePackage("com.cxk.cai.controller")).build();
     }
 }
