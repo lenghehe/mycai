@@ -1,4 +1,4 @@
-package com.music.joyousmusic.config;
+package com.cxk.cai.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -10,8 +10,9 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
 
+
 /**
- * @author 喜闻乐见i
+ * @author AHH
  */
 @Configuration
 public class SwaggerConfig {

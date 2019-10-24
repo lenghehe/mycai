@@ -1,4 +1,4 @@
-package com.music.joyousmusic.config;
+package com.cxk.cai.config;
 
 import com.alibaba.druid.support.http.StatViewFilter;
 import com.alibaba.druid.support.http.StatViewServlet;
@@ -7,8 +7,9 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+
 /**
- * @author 喜闻乐见i
+ * @author AHH
  */
 @Configuration
 public class DruidConfig {
